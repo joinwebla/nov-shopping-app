@@ -1,0 +1,149 @@
+
+NPM
+React Project
+Folder Structure
+JSX
+Component
+State
+Props
+Functional vs Class component
+Life Cycle Events
+Hooks
+Api Calls
+Pagination
+Single Page vs MultiPage
+VirtualDOM
+React Routing
+Forms & Validations
+
+Session & Session Handling
+
+1. Signup --- email & password
+2. Login ---- email & password
+3. Logout
+
+
+1. Cookie Based Authentication
+		Website - Login (email & password) --> submit ----> BE
+		saved     <------------response-------200---Cookie--
+
+		Orders ------------>Request+Cookie--------> BE
+										<-----------------------------------
+
+		Wishlist ------------>Request+Cookie--------> BE
+										<-----------------------------------
+
+		Cart ------------>Request+Cookie--------> BE
+										<-----------------------------------
+
+	1. Cookies not secure as it visible to everyone
+	2. Cookies can clear at any time
+	3. Cookies can be disabled in settings
+	4. Cookie only works for Web Apps
+
+
+2. Token Based Authentication
+
+		Login -- email + password -------------> BE
+		save manually <---------token-----------------
+
+		Orders ------------>Request+Token--------> BE
+										<-----------------------------------
+
+		Wishlist ------------>Request+Token--------> BE
+										<-----------------------------------
+
+		Cart ------------>Request+Token--------> BE
+										<-----------------------------------
+
+Mobile App -- Signup --- Token Based
+Web App - Login ---- Cookie Based + Token Based
+
+
+
+Session Storage ---> Tab Close ----> clear automatically
+Local Storage -----> It stays untill you clear --->
+
+
+Public Route --- anyone can access without login
+Protected Route --- Only loggedin users can see this
+
+
+CORS
+=====
+
+FE 																		BE
+client1																server1
+localhost:8001                      api.flipkart.com (whitelist)
+www.flipkart.com
+www.admin.flipkart.com
+www.partner.flipkart.com
+
+
+MobileApp
+client2
+
+
+CORS
+========
+
+Browser
+1. OPTIONS - Preflight - sucesss  - CORS Error
+2. POST - Request
+
+
+React Hooks
+===========
+1. useState ----> create state in functional component
+2. useEffect ---> to use lifecycle events in function component
+3. useContext ---> to pass a value to child without passing as prop
+4. useRef -->
+		--> Regular variable will reset whenever the props or state gets changed
+		--> We no need to state variable for the values not visible on the screen
+		--> Refs - will hold the value - irrespective state or props changes
+5. useMemo --> It will return the momoiezed value (to improve performace)
+6. useCallback ---> It will return the memoized function
+7. HOC ---> Higher Order Component
+	A component that recieves another component as a prop & adds additional properties to that.
+// tomorrow
+8. Prop Type Checking
+9. ErrorBoundary
+
+
+//Deployment
+//friday
+10. GitHub + Netlify + Build Process
+
+
+// weekend
+11. Redux in React
+
+
+
+
+Computer ----> GitHub ---> Server
+
+
+
+
+Deployment
+==========
+
+Computer ------------> VersionControl (GitHub) -----------------> Server
+(git - software)
+
+1. Once in a computer
+=======================
+	1. git --version - if there in no git in your comouter
+	2. install git - go https://git-scm.com/downloads - install git
+	3. Create a account in version control
+	4. git config --global user.name "Webla"
+	5. git config --global user.email "joinwebla@gmail.com"
+
+2. Once in a project
+=======================
+
+
+
+3. Every day you've to run
+==========================
