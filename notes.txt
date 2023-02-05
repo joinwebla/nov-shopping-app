@@ -128,8 +128,7 @@ Computer ----> GitHub ---> Server
 
 Deployment
 ==========
-
-Computer ------------> VersionControl (GitHub) -----------------> Server
+Computer ------------> VersionControl (GitHub) -----------------> Server (2 mins)
 (git - software)
 
 1. Once in a computer
@@ -158,4 +157,16 @@ Computer ------------> VersionControl (GitHub) -----------------> Server
 3. git commit -m "Message"
 4. git push origin <branch-name> (master)
 		username - enter user name
-		password - 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
+		password -
+
+
+	2. Github -----build----> Netlify
+
+	1. New Site
+	2. Import existing project
+	3. github
+	4. selected reposioty
+	5. Adv Settings ----> New Variable ----> CI false
+	6. Dpeloy Site
+	7. Change Site ---> Name Changed
+	8. _redirects
