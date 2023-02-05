@@ -41,7 +41,7 @@ export const Login = (props) => {
 	return (
 		<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '100vh' }}>
 			<div style={{ width: 500, padding: 30 }}>
-				<h1>Login Page</h1>
+				<h1>Login Here</h1>
 				<form onSubmit={handleSubmit(myOwnFunc)}>
 					<div className="form-group" style={{ marginBottom: 10 }}>
 						<label>Email address</label>

@@ -142,8 +142,20 @@ Computer ------------> VersionControl (GitHub) -----------------> Server
 
 2. Once in a project
 =======================
-
+	1. git init
+	2. Creat a project under yourname in your GitHub
+	3. git remote add origin https://github.com/joinwebla/nov-shopping-app.git
 
 
 3. Every day you've to run
 ==========================
+	1. Red -----------------> Untracked - local exists but not in remote - select
+	2. Green ---------------> stagged - seelcted files
+	3. It doesn't show anything ---> Finalised
+
+1. git status -
+2. git add . or git add filename
+3. git commit -m "Message"
+4. git push origin <branch-name> (master)
+		username - enter user name
+		password - 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
